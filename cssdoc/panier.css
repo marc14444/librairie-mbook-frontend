@@ -1,0 +1,50 @@
+body{
+    background: #FF8C00;
+}
+#grand-card{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+   
+}
+.mes-element{
+    width: 500px;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    background: #FFF;
+}
+img{
+    width: 150px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-ajout{
+    font-size: 1rem;
+    font-family: 'Inter',sans-serif;
+}
+.card-ajout1{
+    font-size: 1rem;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+}
+.card-ajout2{
+    font-size: 1.3rem;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    width: 200px;
+    height: auto;
+}
+button{
+    width: 150px;
+    height: 35px;
+    background: #FF8C00;
+    font-size: 1rem;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
