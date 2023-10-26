@@ -13,7 +13,7 @@ formulaire.addEventListener("submit", event =>{
     formData.append("email", email.value);
     formData.append("motDePasse", motDePasse.value);
 
-    fetch('http://localhost:3000/api/user',{ 
+    fetch('https://librairie-mbook.onrender.com/api/user',{ 
         method:"POST",
         //on cree une instance de la classe URLSeachParams qui recupere les informations contenue dans forme data
         body: new URLSearchParams(formData)
